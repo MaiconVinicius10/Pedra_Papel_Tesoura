@@ -34,6 +34,16 @@ public class MainActivity extends AppCompatActivity {
         verificarGanhador("tesoura");
     }
 
+    public void reiniciar(View view){
+        //instanciando imagem
+        ImageView image= findViewById(R.id.image_app);
+        image.setImageResource(R.drawable.padrao);
+
+        //recebendo e setando
+        TextView texto = findViewById(R.id.text_Resultado);
+        texto.setText("Resultado");
+    }
+
     //criando metodo gerarEscolha
     private String gerarEscolhaAleatoriaApp() {
 
@@ -83,5 +93,6 @@ public class MainActivity extends AppCompatActivity {
         }
         // System.out.println("Item clicado:"+ escolhaUsuario);
     }
+
 
 }
