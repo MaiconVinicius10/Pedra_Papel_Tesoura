@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Pedra Papel Tesoura</string>
+    <string name="Escolha_do_App">Escolha Do APP</string>
+    <string name="Escolha_uma_opcao_abaixo">Escolha uma opção abaixo</string>
+    <string name="text_Resultado">Resultado</string>
+    <string name="btn_Reiniciar">Reiniciar</string>
+    <string name="ImagePadrao">Image Padrao</string>
 </resources>
